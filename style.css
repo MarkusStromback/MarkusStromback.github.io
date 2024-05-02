@@ -1,4 +1,9 @@
-/*this is where you'll be working on practical challenge three*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: (IDK);
+}
 
 
 nav a:visited{
@@ -31,3 +36,43 @@ textarea{
     width: 300px;
 }
 /****************************************/
+
+/********************************BADGE PAGE STYLES***********************************************/
+
+
+#badge-gallery{
+    margin-top: 30px;
+}
+
+#badge-gallery img{
+    display: block;
+    width: 100%;
+    margin-top: 9px;
+
+}
+
+@media (min-width: 500px){
+    #badge-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 6px;
+
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 900px){
+    #badge-gallery{
+        grid-template-columns: repeat(3, 1fr);
+        width: 900px;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+/************************************/
